@@ -31,7 +31,7 @@ module.exports.local = {
           body
           hero {
             full: childImageSharp {
-              fluid(maxWidth: 944, maxHeight: 425, quality: 90) {
+              fluid(maxWidth: 944, quality: 90) {
                 ${GatsbyFluid_withWebp}
               }
             }
@@ -88,7 +88,7 @@ module.exports.local = {
         }
       }
     }
-  }`,
+  }`
 };
 
 module.exports.contentful = {
@@ -158,5 +158,5 @@ module.exports.contentful = {
         }
       }
     }
-  }`,
+  }`
 };
